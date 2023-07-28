@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-26T09:04:30 IST" name="Default suite" finished-at="2023-07-26T09:04:30 IST" duration-ms="70">
+    <groups>
+    </groups>
+    <test started-at="2023-07-26T09:04:30 IST" name="Default test" finished-at="2023-07-26T09:04:30 IST" duration-ms="70">
+      <class name="com.qc.testng.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qc.testng.tests.LoginTest@45752059]" started-at="2023-07-26T09:04:30 IST" name="setUp" finished-at="2023-07-26T09:04:30 IST" duration-ms="21" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[key can't be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: key can't be null
+at java.base/java.lang.System.checkKey(System.java:1045)
+at java.base/java.lang.System.setProperty(System.java:991)
+at com.qc.testng.tests.BaseIntegration.setUp(BaseIntegration.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="locateElement()[pri:0, instance:com.qc.testng.tests.LoginTest@45752059]" started-at="2023-07-26T09:04:30 IST" name="locateElement" finished-at="2023-07-26T09:04:30 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateElement -->
+        <test-method signature="doLogin()[pri:0, instance:com.qc.testng.tests.LoginTest@45752059]" started-at="2023-07-26T09:04:30 IST" name="doLogin" finished-at="2023-07-26T09:04:30 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[key can't be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: key can't be null
+at java.base/java.lang.System.checkKey(System.java:1045)
+at java.base/java.lang.System.setProperty(System.java:991)
+at com.qc.testng.tests.BaseIntegration.setUp(BaseIntegration.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="doAssert()[pri:0, instance:com.qc.testng.tests.LoginTest@45752059]" started-at="2023-07-26T09:04:30 IST" name="doAssert" finished-at="2023-07-26T09:04:30 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAssert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qc.testng.tests.LoginTest@45752059]" started-at="2023-07-26T09:04:30 IST" name="tearDown" finished-at="2023-07-26T09:04:30 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qc.testng.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
