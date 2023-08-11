@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\1004tu\AppData\Local\Temp\testng-eclipse--957570339\testng-customsuite.xml</span>
+                    <span>C:\Users\1004tu\AppData\Local\Temp\testng-eclipse--556736093\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">8 methods,  1 skipped,  7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -103,10 +103,54 @@
                     <div class="method-list-content skipped suite-Default_suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.qc.testng.tests.LoginTest" class="method navigator-link" hash-for-method="doLogin">doLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.qc.testng.tests.LoginTest" class="method navigator-link" hash-for-method="doLogin(, , )">doLogin(, , )</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qc.testng.tests.LoginTest" class="method navigator-link" hash-for-method="doLogin(Both are empty, , )">doLogin(Both are empty, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qc.testng.tests.LoginTest" class="method navigator-link" hash-for-method="doLogin(Email is invalid,  queuecodes@gmail, 123456)">doLogin(Email is invalid,  queuecodes@gmail, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qc.testng.tests.LoginTest" class="method navigator-link" hash-for-method="doLogin(Both are valid, queuecodes@gmail.com, 123456)">doLogin(Both are valid, queuecodes@gmail.com, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qc.testng.tests.LoginTest" class="method navigator-link" hash-for-method="doLogin(Password is empty, queuecodes@gmail.com, )">doLogin(Password is empty, queuecodes@gmail.com, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qc.testng.tests.LoginTest" class="method navigator-link" hash-for-method="doLogin(Password is invalid, queuecodes@gmail.com, 123123)">doLogin(Password is invalid, queuecodes@gmail.com, 123123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qc.testng.tests.LoginTest" class="method navigator-link" hash-for-method="doLogin(Email is empty, , 123456)">doLogin(Email is empty, , 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qc.testng.tests.LoginTest" class="method navigator-link" hash-for-method="doLogin(Both are invalid,  queuecodes@gmail, 123123)">doLogin(Both are invalid,  queuecodes@gmail, 123123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -126,13 +170,36 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="doLogin">
-                  </a> <!-- doLogin -->
+                  <a name="doLogin(, , )">
+                  </a> <!-- doLogin(, , ) -->
                   <span class="method-name">doLogin</span>
-                  <div class="stack-trace">java.lang.NullPointerException: key can&apos;t be null
-	at java.base/java.lang.System.checkKey(System.java:1045)
-	at java.base/java.lang.System.setProperty(System.java:991)
-	at com.qc.testng.tests.BaseIntegration.setUp(BaseIntegration.java:23)
+                  <span class="parameters">(,,)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#submit&quot;}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ab87664b9d3930159c96cc0c5c63724, findElement {using=id, value=submit}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\1004tu\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59200/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ab87664b9d3930159c96cc0c5c63724
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.qc.testng.tests.LoginTest.locateElement(LoginTest.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -141,7 +208,20 @@
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
 	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
@@ -158,10 +238,74 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qc.testng.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(Both are empty, , )">
+                  </a> <!-- doLogin(Both are empty, , ) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(Both are empty,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(Email is invalid,  queuecodes@gmail, 123456)">
+                  </a> <!-- doLogin(Email is invalid,  queuecodes@gmail, 123456) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(Email is invalid, queuecodes@gmail,123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(Both are valid, queuecodes@gmail.com, 123456)">
+                  </a> <!-- doLogin(Both are valid, queuecodes@gmail.com, 123456) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(Both are valid,queuecodes@gmail.com,123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(Password is empty, queuecodes@gmail.com, )">
+                  </a> <!-- doLogin(Password is empty, queuecodes@gmail.com, ) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(Password is empty,queuecodes@gmail.com,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(Password is invalid, queuecodes@gmail.com, 123123)">
+                  </a> <!-- doLogin(Password is invalid, queuecodes@gmail.com, 123123) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(Password is invalid,queuecodes@gmail.com,123123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(Email is empty, , 123456)">
+                  </a> <!-- doLogin(Email is empty, , 123456) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(Email is empty,,123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin(Both are invalid,  queuecodes@gmail, 123123)">
+                  </a> <!-- doLogin(Both are invalid,  queuecodes@gmail, 123123) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">(Both are invalid, queuecodes@gmail,123123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\1004tu\AppData\Local\Temp\testng-eclipse--957570339\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\1004tu\AppData\Local\Temp\testng-eclipse--556736093\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -210,16 +354,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'doLogin')
 data.setCell(0, 2, 'com.qc.testng.tests.LoginTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 3069);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'doLogin')
+data.setCell(1, 2, 'com.qc.testng.tests.LoginTest')
+data.setCell(1, 3, 234);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doLogin')
+data.setCell(2, 2, 'com.qc.testng.tests.LoginTest')
+data.setCell(2, 3, 209);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doLogin')
+data.setCell(3, 2, 'com.qc.testng.tests.LoginTest')
+data.setCell(3, 3, 205);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'doLogin')
+data.setCell(4, 2, 'com.qc.testng.tests.LoginTest')
+data.setCell(4, 3, 204);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'doLogin')
+data.setCell(5, 2, 'com.qc.testng.tests.LoginTest')
+data.setCell(5, 3, 196);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'doLogin')
+data.setCell(6, 2, 'com.qc.testng.tests.LoginTest')
+data.setCell(6, 3, 187);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'doLogin')
+data.setCell(7, 2, 'com.qc.testng.tests.LoginTest')
+data.setCell(7, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -247,11 +419,107 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.qc.testng.tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">locateElement</span>
+                <span class="method-start">7187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(Both are empty, , )</span>
+                <span class="method-start">7343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">doAssert</span>
+                <span class="method-start">7583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">locateElement</span>
+                <span class="method-start">9604 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(Email is empty, , 123456)</span>
+                <span class="method-start">9713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">doAssert</span>
+                <span class="method-start">9909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">locateElement</span>
+                <span class="method-start">11940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(Password is empty, queuecodes@gmail.com, )</span>
+                <span class="method-start">12061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">doAssert</span>
+                <span class="method-start">12270 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">locateElement</span>
+                <span class="method-start">14302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(Both are invalid,  queuecodes@gmail, 123123)</span>
+                <span class="method-start">14445 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">doAssert</span>
+                <span class="method-start">14650 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">locateElement</span>
+                <span class="method-start">16671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(Email is invalid,  queuecodes@gmail, 123456)</span>
+                <span class="method-start">16794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">doAssert</span>
+                <span class="method-start">16999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">locateElement</span>
+                <span class="method-start">19018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(Password is invalid, queuecodes@gmail.com, 123123)</span>
+                <span class="method-start">19152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">doAssert</span>
+                <span class="method-start">19348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">locateElement</span>
+                <span class="method-start">21368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(Both are valid, queuecodes@gmail.com, 123456)</span>
+                <span class="method-start">21502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">doAssert</span>
+                <span class="method-start">24581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">locateElement</span>
+                <span class="method-start">26899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doLogin(, , )</span>
+                <span class="method-start">27047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">doAssert</span>
+                <span class="method-start">27054 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
